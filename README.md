@@ -103,18 +103,19 @@ These extensions were deliberately excluded from the current version to keep the
 
 ---
 
+
 ## Project Structure
 
+```text
 trend_research/
-├── data.py # Data loading and preprocessing
-├── strategy.py # Trading strategies
-├── portfolio.py # Portfolio construction and execution
-├── performance.py # Risk and performance analytics
-├── research.py # Research orchestration (train/test, parameter sweep)
-├── visualize.py # Visualization utilities
-├── run.py # Entry point
+├── data.py
+├── strategy.py
+├── portfolio.py
+├── performance.py
+├── research.py
+├── visualize.py
+├── run.py
 └── README.md
-
 
 ---
 
